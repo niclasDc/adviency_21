@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/adviency_21/build/static/css/main.e154f907.css",
-    "main.js": "/adviency_21/build/static/js/main.4ccd76e7.js",
+    "main.js": "/adviency_21/build/static/js/main.33d96313.js",
     "static/js/787.3bbbf29b.chunk.js": "/adviency_21/build/static/js/787.3bbbf29b.chunk.js",
     "static/media/christmas-bauble.jpg": "/adviency_21/build/static/media/christmas-bauble.809fcfe766523bfa3e99.jpg",
     "static/media/arima-madurai-all-400-normal.woff": "/adviency_21/build/static/media/arima-madurai-all-400-normal.7a117db4cdceea2e8d34.woff",
@@ -11,11 +11,11 @@
     "static/media/arima-madurai-vietnamese-400-normal.woff2": "/adviency_21/build/static/media/arima-madurai-vietnamese-400-normal.2bacce71bb240b6e1bf4.woff2",
     "index.html": "/adviency_21/build/index.html",
     "main.e154f907.css.map": "/adviency_21/build/static/css/main.e154f907.css.map",
-    "main.4ccd76e7.js.map": "/adviency_21/build/static/js/main.4ccd76e7.js.map",
+    "main.33d96313.js.map": "/adviency_21/build/static/js/main.33d96313.js.map",
     "787.3bbbf29b.chunk.js.map": "/adviency_21/build/static/js/787.3bbbf29b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e154f907.css",
-    "static/js/main.4ccd76e7.js"
+    "static/js/main.33d96313.js"
   ]
 }

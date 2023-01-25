@@ -28,7 +28,7 @@ function Home() {
 
     useEffect(() => {
         const gifts = JSON.parse(localStorage.getItem('gifts'));
-        if (gifts.length !== 0) {
+        if (!gifts.isEmpty) {
             setGifts(gifts)
         }
     }, []);
