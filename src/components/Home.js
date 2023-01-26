@@ -5,6 +5,7 @@ import {PencilSquareIcon} from "@heroicons/react/20/solid";
 import {ErrorMessage, Field, Form, Formik} from "formik";
 import * as Yup from 'yup';
 import {useReactToPrint} from "react-to-print";
+import gift_christmas_tree from '../img/gift_christmas_tree.png';
 
 function Home() {
 
@@ -28,7 +29,7 @@ function Home() {
 
     useEffect(() => {
         const gifts = JSON.parse(localStorage.getItem('gifts'));
-        if (!gifts.isEmpty) {
+        if (gifts?.length) {
             setGifts(gifts)
         }
     }, []);
@@ -347,9 +348,9 @@ function Home() {
                 <div className="bg-fern rounded-t-md flex justify-center">
                     <h5 className="text-2xl font-semibold py-2">🎁 Lista de Regalos</h5>
                 </div>
-                {gifts.length === 0 ?
+                {!(gifts?.length) ?
                     <div className="grid justify-items-center">
-                        <img className="w-2/3" src="/assets/img/gift_christmas_tree.png" alt="gift_christmas_tree"/>
+                        <img className="w-2/3" src={gift_christmas_tree} alt="gift_christmas_tree"/>
                         <h5 className="text-xl m-2">🎅: No deseas algún regalo?</h5>
                     </div>
                     :
